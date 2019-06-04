@@ -1,0 +1,42 @@
+.priceCounter{
+  max-width: 350px;
+  margin: auto;
+}
+.title{
+  text-align: center;
+}
+.row{
+  display: flex;
+  padding: 5px;
+}
+.text{
+  width: 150px;
+}
+.val{
+  max-width: 100px;
+}
+.price{
+  display: inline-block;
+  min-width: 20%;
+  margin-left: 5px;
+  background: silver;
+  text-align: right;
+  color: #fff;
+}
+
+@media (max-width: 860px){
+  .priceCounter{
+    max-width: 50vw;
+  }
+}
+@media (max-width: 600px){
+  .priceCounter{
+    max-width: 80vw;
+  }
+}
+
+@media (max-width: 380px){
+  .priceCounter{
+    max-width: 100%;
+  }
+}
